@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./build/js/local",
+    "module": "nodenext",
+    "target": "esnext",
+    "strict": true,
+    "sourceMap": true,
+    "declaration": true,
+    "moduleResolution": "nodenext",
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"]
+}

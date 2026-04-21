@@ -1,0 +1,27 @@
+﻿PARCIALDESARROLLODEAPLICACIONESWEB2026-10
+LeninJavierSerranoGil
+RentalMoviesUPB– RMU
+ElRMUeslavista deaplicación webquepermite a sus clientesvisualizarlas películas disponiblesparala renta.
+La aplicación se compone de una cabecera, una barra de navegación con búsqueda, el componente que despliega las películas además de un pie de página.
+La cabecera contine el logo. La barra de navegación tiene los enlaces a los diferentes componentes que se pueden cargar en el área de contenido. Los enlaces se configuran desde el modelo. En el área de contenido se cargan los componentes. Por ejemplo, el componente que muestra las películas. Este componente es una malla como se ve en la figura e incluye el control de paginación.
+Lavistaesresponsivepararesolucionesmenoresde600pxcomomuestralafigura.
+En la barra de navegación hay un formulario para búsqueda. Cuando el contenido es “Rentals” se puede utilizar para buscar películas incluyendo nombre,añoyresumen.Verimagenresponsiva.Notequesielresumensupera un tamaño de 400px se agrega un control de scroll.
+Consideraciones
+ElproyectosedesarrollarespetandoelpatrónMVC.
+UsacodificaciónTypescript.
+Seadministracomounproyectodenode.
+LacodificaciónCSSes nativa.
+Seentregaunarchivo“app.css”conlasvariablesdeloscoloresdentrodel directorio “css”.
+Seentregaeldirectorio“img” coneldirectorio“movies”quecontienelas
+imágenes.
+Se entrega una base de datos en .json con la información de las películas. Esta emula la respuesta de un servidor de backend.
+Sedebedesarrollarelcomponente<index>paralavista principal.
+Sedebedesarrollarloscomponentes<menu>y <movies>.
+TodosloscomponentessonMCV.
+Se debe solucionarutilizando los temas cubiertos en clase, cualquier otra aproximación será descartada.
+Parcial
+Eldesarrolloesindividual.
+HTML:0.5puntos.
+CSS:1.0 puntos.
+Javascript/Typescript/MVC:1.5puntos.
+Sustentación:2.0puntos.
